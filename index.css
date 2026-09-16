@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.dice-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.dice{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.dot{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+ /* dice one  */
+ 
+.dice-one .dot{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* dice two  */
+
+
+
+.dice-two .dot:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+
+}
+ 
+.dice-two .dot:nth-child(2){
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+/* dice three */
+ 
+.dice-three .dot:nth-child(1){
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.dice-three .dot:nth-child(2){
+    grid-column: 2;
+    grid-row: 2;
+}
+.dice-three .dot:nth-child(3){
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+/* dice four */
+
+
+.dice-four .dot:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.dice-four .dot:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.dice-four .dot:nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.dice-four .dot:nth-child(4) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+/* dice five */
+
+
+
+.dice-five .dot:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.dice-five .dot:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.dice-five .dot:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.dice-five .dot:nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.dice-five .dot:nth-child(5) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+/* dice six */
+
+
+
+.dice-six .dot:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.dice-six .dot:nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.dice-six .dot:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.dice-six .dot:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.dice-six .dot:nth-child(5) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.dice-six .dot:nth-child(6) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+
+
